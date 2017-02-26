@@ -1,0 +1,23 @@
+{
+    "name": "glavweb/silex-markup-fixture",
+    "description": "The Silex Markup Fixture package",
+    "authors": [
+        {
+            "name": "nilov",
+            "email": "nilov@glavweb.ru",
+            "homepage": "http://glavweb.ru"
+        },
+        {
+            "name": "GLAVWEB Community",
+            "homepage": "https://github.com/glavweb/silex-markup-fixture/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "pimple/pimple": "~3.0",
+        "glavweb/markup-fixture": "~0.1"
+    },
+    "autoload": {
+        "psr-4": { "Glavweb\\SilexMarkupFixture\\": "src/" }
+    }
+}
